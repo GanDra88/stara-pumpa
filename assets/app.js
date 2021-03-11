@@ -11,3 +11,9 @@ const social = document.querySelector(".social-icons");
 navToggle.addEventListener("click", function () {
   links.classList.toggle("show-links");
 });
+
+//preloader
+const preloader = document.querySelector(".preloader");
+window.addEventListener("load", function () {
+  preloader.classList.add("hide-preloader");
+});
