@@ -251,12 +251,13 @@ nav {
   flex-direction: column;
 }
 .contact .content h2 {
+  width: fit-content;
   font-size: 36px;
   font-weight: 500;
 }
 .contact .content p {
   position: relative;
-  flex-direction: column;
+  width: fit-content;
   height: fit-content;
   background-color: darkorange;
 }
