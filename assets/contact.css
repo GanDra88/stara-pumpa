@@ -231,11 +231,10 @@ nav {
 /*KONTAKT*/
 
 .contact {
-  position: relative;
-  min-height: 100vh;
-  width: flex;
-  padding: 70px 55px;
-  display: flex;
+  min-height: absolute;
+  width: 100%;
+  padding: 70px 40px;
+  display: auto;
   justify-content: flex-end;
   align-items: flex;
   flex-direction: column;
@@ -245,11 +244,11 @@ nav {
   color: darkorange;
 }
 .contact .content {
-  position: absolute;
-  width: 100%;
-  margin: -55px;
+  position: static;
+  padding: 50px;
+  width: auto;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 .contact .content h2 {
   font-size: 36px;
@@ -276,10 +275,10 @@ nav {
 .container .contactInfo .box {
   position: relative;
   width: fit-content;
-  padding: 40px 0;
+  padding: 30px 1;
   display: flex;
-  background: rgba(0, 0, 0, 0.2);
-  box-shadow: 0 20px 15px rgba(255, 255, 255, 0.5);
+  background: rgba(10, 10, 10, 0.692);
+  box-shadow: 0 5px 15px rgba(255, 255, 255, 0.959);
 }
 .container .contactInfo .box .icon {
   min-width: 60px;
